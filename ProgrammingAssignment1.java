@@ -53,7 +53,7 @@ public int getValidRegistrationsCount(String []number){
 		return count;
 }
 public static void main(String[] args){
-	String []RegNum = {null,"2023bsd501","2022bit201","2021BCS001","2025bit111"};
+	String []RegNum = {null,"2023bsd401","2022bit201","2021BCS001","2025bit111"};
 	SY2022bit001 data = new SY2022bit001();
 	int count  =data.getValidRegistrationsCount(RegNum);
 	System.out.println("The count of valid registraton numbers are="+count);
